@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C26B57329704FAF001AEBD7 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C26B57229704FAF001AEBD7 /* NetworkManager.swift */; };
+		5C26B57529705080001AEBD7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C26B57429705080001AEBD7 /* Constants.swift */; };
+		5C26B5772970519B001AEBD7 /* url helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C26B5762970519B001AEBD7 /* url helper.swift */; };
+		5C26B579297054A5001AEBD7 /* PicOfTodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C26B578297054A5001AEBD7 /* PicOfTodayView.swift */; };
+		5C26B57C297055FE001AEBD7 /* PhotoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C26B57B297055FE001AEBD7 /* PhotoInfo.swift */; };
+		5C26B57E2970AF92001AEBD7 /* SelectDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C26B57D2970AF92001AEBD7 /* SelectDateView.swift */; };
+		5C26B58029715AD2001AEBD7 /* LoadingAnimationBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C26B57F29715AD2001AEBD7 /* LoadingAnimationBox.swift */; };
+		5C26B582297162CE001AEBD7 /* MultiNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C26B581297162CE001AEBD7 /* MultiNetworkManager.swift */; };
+		5C26B58429716608001AEBD7 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C26B58329716608001AEBD7 /* API.swift */; };
+		5C26B58629716A85001AEBD7 /* APODListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C26B58529716A85001AEBD7 /* APODListView.swift */; };
+		5C26B58829755D68001AEBD7 /* APODRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C26B58729755D68001AEBD7 /* APODRow.swift */; };
+		5C26B58A29759B8A001AEBD7 /* APODDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C26B58929759B8A001AEBD7 /* APODDetailView.swift */; };
+		5C26B58C2975A4B7001AEBD7 /* InteractiveImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C26B58B2975A4B7001AEBD7 /* InteractiveImageView.swift */; };
+		5C26B58E2975E143001AEBD7 /* Image helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C26B58D2975E143001AEBD7 /* Image helper.swift */; };
 		5CE2D66B296C64C5006EA219 /* AstroPicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE2D66A296C64C5006EA219 /* AstroPicApp.swift */; };
 		5CE2D66D296C64C5006EA219 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE2D66C296C64C5006EA219 /* ContentView.swift */; };
 		5CE2D66F296C64C7006EA219 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CE2D66E296C64C7006EA219 /* Assets.xcassets */; };
@@ -14,6 +28,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C26B57229704FAF001AEBD7 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		5C26B57429705080001AEBD7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5C26B5762970519B001AEBD7 /* url helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "url helper.swift"; sourceTree = "<group>"; };
+		5C26B578297054A5001AEBD7 /* PicOfTodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicOfTodayView.swift; sourceTree = "<group>"; };
+		5C26B57B297055FE001AEBD7 /* PhotoInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoInfo.swift; sourceTree = "<group>"; };
+		5C26B57D2970AF92001AEBD7 /* SelectDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectDateView.swift; sourceTree = "<group>"; };
+		5C26B57F29715AD2001AEBD7 /* LoadingAnimationBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingAnimationBox.swift; sourceTree = "<group>"; };
+		5C26B581297162CE001AEBD7 /* MultiNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiNetworkManager.swift; sourceTree = "<group>"; };
+		5C26B58329716608001AEBD7 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		5C26B58529716A85001AEBD7 /* APODListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODListView.swift; sourceTree = "<group>"; };
+		5C26B58729755D68001AEBD7 /* APODRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODRow.swift; sourceTree = "<group>"; };
+		5C26B58929759B8A001AEBD7 /* APODDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODDetailView.swift; sourceTree = "<group>"; };
+		5C26B58B2975A4B7001AEBD7 /* InteractiveImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveImageView.swift; sourceTree = "<group>"; };
+		5C26B58D2975E143001AEBD7 /* Image helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image helper.swift"; sourceTree = "<group>"; };
 		5CE2D667296C64C5006EA219 /* AstroPic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AstroPic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CE2D66A296C64C5006EA219 /* AstroPicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroPicApp.swift; sourceTree = "<group>"; };
 		5CE2D66C296C64C5006EA219 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +60,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C26B57029704F3A001AEBD7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5C26B57B297055FE001AEBD7 /* PhotoInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5C26B57129704F5D001AEBD7 /* View models */ = {
+			isa = PBXGroup;
+			children = (
+				5C26B57229704FAF001AEBD7 /* NetworkManager.swift */,
+				5C26B581297162CE001AEBD7 /* MultiNetworkManager.swift */,
+				5C26B58329716608001AEBD7 /* API.swift */,
+				5C26B57429705080001AEBD7 /* Constants.swift */,
+				5C26B5762970519B001AEBD7 /* url helper.swift */,
+			);
+			path = "View models";
+			sourceTree = "<group>";
+		};
+		5C26B57A297054BD001AEBD7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5C26B578297054A5001AEBD7 /* PicOfTodayView.swift */,
+				5C26B58729755D68001AEBD7 /* APODRow.swift */,
+				5C26B57F29715AD2001AEBD7 /* LoadingAnimationBox.swift */,
+				5C26B57D2970AF92001AEBD7 /* SelectDateView.swift */,
+				5C26B58529716A85001AEBD7 /* APODListView.swift */,
+				5C26B58B2975A4B7001AEBD7 /* InteractiveImageView.swift */,
+				5C26B58D2975E143001AEBD7 /* Image helper.swift */,
+				5C26B58929759B8A001AEBD7 /* APODDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		5CE2D65E296C64C5006EA219 = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +116,9 @@
 			children = (
 				5CE2D66A296C64C5006EA219 /* AstroPicApp.swift */,
 				5CE2D66C296C64C5006EA219 /* ContentView.swift */,
+				5C26B57A297054BD001AEBD7 /* View */,
+				5C26B57129704F5D001AEBD7 /* View models */,
+				5C26B57029704F3A001AEBD7 /* Model */,
 				5CE2D66E296C64C7006EA219 /* Assets.xcassets */,
 				5CE2D670296C64C7006EA219 /* Preview Content */,
 			);
@@ -137,8 +203,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C26B58E2975E143001AEBD7 /* Image helper.swift in Sources */,
+				5C26B58429716608001AEBD7 /* API.swift in Sources */,
+				5C26B57E2970AF92001AEBD7 /* SelectDateView.swift in Sources */,
+				5C26B57C297055FE001AEBD7 /* PhotoInfo.swift in Sources */,
+				5C26B58A29759B8A001AEBD7 /* APODDetailView.swift in Sources */,
+				5C26B582297162CE001AEBD7 /* MultiNetworkManager.swift in Sources */,
+				5C26B58629716A85001AEBD7 /* APODListView.swift in Sources */,
+				5C26B58829755D68001AEBD7 /* APODRow.swift in Sources */,
+				5C26B58029715AD2001AEBD7 /* LoadingAnimationBox.swift in Sources */,
+				5C26B5772970519B001AEBD7 /* url helper.swift in Sources */,
+				5C26B57329704FAF001AEBD7 /* NetworkManager.swift in Sources */,
+				5C26B579297054A5001AEBD7 /* PicOfTodayView.swift in Sources */,
 				5CE2D66D296C64C5006EA219 /* ContentView.swift in Sources */,
+				5C26B58C2975A4B7001AEBD7 /* InteractiveImageView.swift in Sources */,
 				5CE2D66B296C64C5006EA219 /* AstroPicApp.swift in Sources */,
+				5C26B57529705080001AEBD7 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +355,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +385,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
